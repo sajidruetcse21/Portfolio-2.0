@@ -111,4 +111,3 @@ MIT License - feel free to use this for your own portfolio!
 ---
 
 Made with ❤️ by Sajid
-# Portfolio-2.0
