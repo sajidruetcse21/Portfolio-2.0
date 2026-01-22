@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex items-center justify-center">
           {/* Copyright */}
           <p className="text-gray-600 dark:text-gray-400 text-sm flex items-center gap-1">
-            © {currentYear} Made with <Heart className="w-4 h-4 text-red-500" /> by Sajid
+            © {currentYear}, Made with <Heart className="w-4 h-4 text-red-500" /> by Sajid.
           </p>
         </div>
       </div>

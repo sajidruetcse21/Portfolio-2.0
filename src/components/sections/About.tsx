@@ -41,11 +41,11 @@ export default function About() {
               </h3>
               
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-justify">
-                Hello! I&apos;m <span className="text-pink-500 font-semibold">Sajid</span>, an undergraduate student in the Department of Computer Science and Engineering at RUET. As a passionate tech enthusiast, I am continually honing my skills by diving deep into advanced topics like Machine Learning, Computer Vision, and Data Structures & Algorithms.
+                Hi again! I&apos;m an undergraduate student in the Department of Computer Science and Engineering at RUET. As a passionate tech enthusiast, I am continually honing my skills by diving deep into advanced topics like Machine Learning, Computer Vision, and Data Structures & Algorithms.
               </p>
 
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-justify">
-                My experience spans Flutter app development and frontend web development, providing me with a solid foundation in building robust applications. I aspire to become a software engineer after graduation, where I can leverage my knowledge to create innovative solutions.
+                My academic research interest lies in Computer Vision, where I am currently working on personal research project aimed at solving real-world problems. I aspire to become a software engineer after graduation, where I can leverage my knowledge to create innovative solutions.
               </p>
 
 

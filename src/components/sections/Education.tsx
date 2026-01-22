@@ -9,8 +9,8 @@ const educationData = [
     institution: 'Rajshahi University of Engineering & Technology (RUET)',
     location: 'Rajshahi, Bangladesh',
     period: '2023 - 2027(Expected)',
-    description: 'Specialized in Artificial Intelligence and Machine Learning. Graduated with honors.',
-    gpa: '3.4/4.0',
+    description: 'Specialized in Artificial Intelligence and Machine Learning.',
+    gpa: 'CGPA: 3.40/4.00',
   },
   {
     degree: 'Higher Secondary School Certificate (HSC)',
@@ -18,15 +18,15 @@ const educationData = [
     location: 'Rajshahi, Bangladesh',
     period: '2019 - 2021',
     description: 'Science major with a focus on Mathematics, Physics. Graduated with scholarship for academic excellence.',
-    gpa: '5.0/5.0',
+    gpa: 'GPA: 5.00/5.00',
   },
   {
     degree: 'Secondary School Certificate (SSC)',
     institution: 'Baigacha High School',
     location: 'Rajshahi, Bangladesh',
     period: '2014 - 2019',
-    description: 'Graduated with scholarship for academic excellence.',
-    gpa: '5.0/5.0',
+    description: 'Top of the class. Graduated with scholarship for academic excellence.',
+    gpa: 'GPA: 5.00/5.00',
   },
 ]
 
@@ -87,7 +87,7 @@ export default function Education() {
                       </p>
 
                       <div className="inline-block px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-sm font-medium">
-                        GPA: {edu.gpa}
+                        {edu.gpa}
                       </div>
                     </div>
                   </div>
