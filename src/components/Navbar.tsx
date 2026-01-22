@@ -44,7 +44,7 @@ export default function Navbar() {
             className="text-xl md:text-2xl font-bold text-primary-600 dark:text-primary-400"
             whileHover={{ scale: 1.05 }}
           >
-            Portfolio
+            Sajid | Portfolio  
           </motion.a>
 
           {/* Desktop Navigation */}

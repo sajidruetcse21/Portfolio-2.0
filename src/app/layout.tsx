@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: 'Sajid | Portfolio',
   description: 'ML Developer Portfolio - Building digital experiences with modern technologies',
   keywords: ['portfolio', 'developer', 'backend', 'machine learning', 'python', 'tensorflow'],
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
