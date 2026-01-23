@@ -58,19 +58,13 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800" />
-      
-      {/* Animated Background Shapes */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary-300/30 dark:bg-primary-600/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-300/30 dark:bg-blue-600/20 rounded-full blur-3xl animate-pulse delay-1000" />
-      </div>
+      {/* Subtle gradient overlay - transparent to show geometric background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-50/50 via-transparent to-blue-50/50 dark:from-gray-900/50 dark:via-transparent dark:to-gray-800/50" />
 
       <div className="section-container relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-32 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-48 items-center">
           {/* Left Side - Content */}
-          <div className="text-center lg:text-left order-2 lg:order-1">
+          <div className="text-center lg:text-left order-2 lg:order-1 lg:pl-0">
             {/* Name */}
             <motion.h1
               initial={{ y: 20, opacity: 0 }}
